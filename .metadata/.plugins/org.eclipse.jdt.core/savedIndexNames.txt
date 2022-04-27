@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Christian\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\Weekly_Coding_Challenge\.metadata\.plugins\org.eclipse.jdt.core
+649985556.index
+1865797976.index
+2274161325.index

@@ -1,0 +1,43 @@
+package robot_in_a_grid;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Robot_in_a_grid {
+
+	public static void main(String[] args) {
+		int[] robot = new int[2];
+		robot[0] = 0; robot [1] = 0;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("What is the number of rows in the grid.\n>");
+		int rows = scan.nextInt();
+		rows = 100;
+		
+		System.out.print("What is the number of columns in the grid.\n>");
+		int colmns = scan.nextInt();
+		colmns = 100;
+		
+		int[][] grid = new int[rows][colmns];
+		
+		for(int i = 0; i < rows; i++) {
+			Random rand = new Random();
+			int random = rand.nextInt(colmns-1) +1;
+			grid[i][random] = 1;
+		}
+		for(int i = 0; i < rows; i++) {
+			for(int j = 0; j < colmns; j++) {
+				System.out.print(grid[i][j]);
+			}
+			System.out.print("\n");
+		}
+		robot_path(robot, grid);
+
+	}
+	
+	public static void robot_path(int[] robot, int[][] grid) {
+		
+	}
+	
+}

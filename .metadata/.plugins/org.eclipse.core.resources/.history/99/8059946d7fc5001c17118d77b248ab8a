@@ -1,0 +1,10 @@
+package robot_in_a_grid;
+
+public class Robot_in_a_grid {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
